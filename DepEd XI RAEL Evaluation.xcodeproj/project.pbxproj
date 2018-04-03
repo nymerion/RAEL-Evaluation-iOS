@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8423A3D62073262B009008F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423A3D52073262B009008F3 /* AppDelegate.swift */; };
+		8423A3D82073262B009008F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423A3D72073262B009008F3 /* ViewController.swift */; };
+		8423A3DB2073262B009008F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8423A3D92073262B009008F3 /* Main.storyboard */; };
+		8423A3DE2073262B009008F3 /* DepEd_XI_RAEL_Evaluation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8423A3DC2073262B009008F3 /* DepEd_XI_RAEL_Evaluation.xcdatamodeld */; };
+		8423A3E020732630009008F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8423A3DF20732630009008F3 /* Assets.xcassets */; };
+		8423A3E320732630009008F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8423A3E120732630009008F3 /* LaunchScreen.storyboard */; };
+		8423A3EE20732630009008F3 /* DepEd_XI_RAEL_EvaluationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423A3ED20732630009008F3 /* DepEd_XI_RAEL_EvaluationTests.swift */; };
+		8423A3F920732630009008F3 /* DepEd_XI_RAEL_EvaluationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423A3F820732630009008F3 /* DepEd_XI_RAEL_EvaluationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8423A3EA20732630009008F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8423A3CA2073262A009008F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8423A3D12073262A009008F3;
+			remoteInfo = "DepEd XI RAEL Evaluation";
+		};
+		8423A3F520732630009008F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8423A3CA2073262A009008F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8423A3D12073262A009008F3;
+			remoteInfo = "DepEd XI RAEL Evaluation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8423A3D22073262A009008F3 /* DepEd XI RAEL Evaluation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DepEd XI RAEL Evaluation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8423A3D52073262B009008F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8423A3D72073262B009008F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8423A3DA2073262B009008F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8423A3DD2073262B009008F3 /* DepEd_XI_RAEL_Evaluation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DepEd_XI_RAEL_Evaluation.xcdatamodel; sourceTree = "<group>"; };
+		8423A3DF20732630009008F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8423A3E220732630009008F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8423A3E420732630009008F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8423A3E920732630009008F3 /* DepEd XI RAEL EvaluationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DepEd XI RAEL EvaluationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8423A3ED20732630009008F3 /* DepEd_XI_RAEL_EvaluationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepEd_XI_RAEL_EvaluationTests.swift; sourceTree = "<group>"; };
+		8423A3EF20732630009008F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8423A3F420732630009008F3 /* DepEd XI RAEL EvaluationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DepEd XI RAEL EvaluationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8423A3F820732630009008F3 /* DepEd_XI_RAEL_EvaluationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepEd_XI_RAEL_EvaluationUITests.swift; sourceTree = "<group>"; };
+		8423A3FA20732631009008F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8423A3CF2073262A009008F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8423A3E620732630009008F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8423A3F120732630009008F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8423A3C92073262A009008F3 = {
+			isa = PBXGroup;
+			children = (
+				8423A3D42073262A009008F3 /* DepEd XI RAEL Evaluation */,
+				8423A3EC20732630009008F3 /* DepEd XI RAEL EvaluationTests */,
+				8423A3F720732630009008F3 /* DepEd XI RAEL EvaluationUITests */,
+				8423A3D32073262A009008F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8423A3D32073262A009008F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8423A3D22073262A009008F3 /* DepEd XI RAEL Evaluation.app */,
+				8423A3E920732630009008F3 /* DepEd XI RAEL EvaluationTests.xctest */,
+				8423A3F420732630009008F3 /* DepEd XI RAEL EvaluationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8423A3D42073262A009008F3 /* DepEd XI RAEL Evaluation */ = {
+			isa = PBXGroup;
+			children = (
+				8423A3D52073262B009008F3 /* AppDelegate.swift */,
+				8423A3D72073262B009008F3 /* ViewController.swift */,
+				8423A3D92073262B009008F3 /* Main.storyboard */,
+				8423A3DF20732630009008F3 /* Assets.xcassets */,
+				8423A3E120732630009008F3 /* LaunchScreen.storyboard */,
+				8423A3E420732630009008F3 /* Info.plist */,
+				8423A3DC2073262B009008F3 /* DepEd_XI_RAEL_Evaluation.xcdatamodeld */,
+			);
+			path = "DepEd XI RAEL Evaluation";
+			sourceTree = "<group>";
+		};
+		8423A3EC20732630009008F3 /* DepEd XI RAEL EvaluationTests */ = {
+			isa = PBXGroup;
+			children = (
+				8423A3ED20732630009008F3 /* DepEd_XI_RAEL_EvaluationTests.swift */,
+				8423A3EF20732630009008F3 /* Info.plist */,
+			);
+			path = "DepEd XI RAEL EvaluationTests";
+			sourceTree = "<group>";
+		};
+		8423A3F720732630009008F3 /* DepEd XI RAEL EvaluationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8423A3F820732630009008F3 /* DepEd_XI_RAEL_EvaluationUITests.swift */,
+				8423A3FA20732631009008F3 /* Info.plist */,
+			);
+			path = "DepEd XI RAEL EvaluationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8423A3D12073262A009008F3 /* DepEd XI RAEL Evaluation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8423A3FD20732631009008F3 /* Build configuration list for PBXNativeTarget "DepEd XI RAEL Evaluation" */;
+			buildPhases = (
+				8423A3CE2073262A009008F3 /* Sources */,
+				8423A3CF2073262A009008F3 /* Frameworks */,
+				8423A3D02073262A009008F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DepEd XI RAEL Evaluation";
+			productName = "DepEd XI RAEL Evaluation";
+			productReference = 8423A3D22073262A009008F3 /* DepEd XI RAEL Evaluation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8423A3E820732630009008F3 /* DepEd XI RAEL EvaluationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8423A40020732631009008F3 /* Build configuration list for PBXNativeTarget "DepEd XI RAEL EvaluationTests" */;
+			buildPhases = (
+				8423A3E520732630009008F3 /* Sources */,
+				8423A3E620732630009008F3 /* Frameworks */,
+				8423A3E720732630009008F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8423A3EB20732630009008F3 /* PBXTargetDependency */,
+			);
+			name = "DepEd XI RAEL EvaluationTests";
+			productName = "DepEd XI RAEL EvaluationTests";
+			productReference = 8423A3E920732630009008F3 /* DepEd XI RAEL EvaluationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8423A3F320732630009008F3 /* DepEd XI RAEL EvaluationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8423A40320732631009008F3 /* Build configuration list for PBXNativeTarget "DepEd XI RAEL EvaluationUITests" */;
+			buildPhases = (
+				8423A3F020732630009008F3 /* Sources */,
+				8423A3F120732630009008F3 /* Frameworks */,
+				8423A3F220732630009008F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8423A3F620732630009008F3 /* PBXTargetDependency */,
+			);
+			name = "DepEd XI RAEL EvaluationUITests";
+			productName = "DepEd XI RAEL EvaluationUITests";
+			productReference = 8423A3F420732630009008F3 /* DepEd XI RAEL EvaluationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8423A3CA2073262A009008F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "DepEd IGACOS";
+				TargetAttributes = {
+					8423A3D12073262A009008F3 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					8423A3E820732630009008F3 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 8423A3D12073262A009008F3;
+					};
+					8423A3F320732630009008F3 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 8423A3D12073262A009008F3;
+					};
+				};
+			};
+			buildConfigurationList = 8423A3CD2073262A009008F3 /* Build configuration list for PBXProject "DepEd XI RAEL Evaluation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8423A3C92073262A009008F3;
+			productRefGroup = 8423A3D32073262A009008F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8423A3D12073262A009008F3 /* DepEd XI RAEL Evaluation */,
+				8423A3E820732630009008F3 /* DepEd XI RAEL EvaluationTests */,
+				8423A3F320732630009008F3 /* DepEd XI RAEL EvaluationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8423A3D02073262A009008F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8423A3E320732630009008F3 /* LaunchScreen.storyboard in Resources */,
+				8423A3E020732630009008F3 /* Assets.xcassets in Resources */,
+				8423A3DB2073262B009008F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8423A3E720732630009008F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8423A3F220732630009008F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8423A3CE2073262A009008F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8423A3D82073262B009008F3 /* ViewController.swift in Sources */,
+				8423A3D62073262B009008F3 /* AppDelegate.swift in Sources */,
+				8423A3DE2073262B009008F3 /* DepEd_XI_RAEL_Evaluation.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8423A3E520732630009008F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8423A3EE20732630009008F3 /* DepEd_XI_RAEL_EvaluationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8423A3F020732630009008F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8423A3F920732630009008F3 /* DepEd_XI_RAEL_EvaluationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8423A3EB20732630009008F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8423A3D12073262A009008F3 /* DepEd XI RAEL Evaluation */;
+			targetProxy = 8423A3EA20732630009008F3 /* PBXContainerItemProxy */;
+		};
+		8423A3F620732630009008F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8423A3D12073262A009008F3 /* DepEd XI RAEL Evaluation */;
+			targetProxy = 8423A3F520732630009008F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8423A3D92073262B009008F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8423A3DA2073262B009008F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8423A3E120732630009008F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8423A3E220732630009008F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8423A3FB20732631009008F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8423A3FC20732631009008F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8423A3FE20732631009008F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U732C6GSA;
+				INFOPLIST_FILE = "DepEd XI RAEL Evaluation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.depedigacos.DepEd-XI-RAEL-Evaluation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8423A3FF20732631009008F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U732C6GSA;
+				INFOPLIST_FILE = "DepEd XI RAEL Evaluation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.depedigacos.DepEd-XI-RAEL-Evaluation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8423A40120732631009008F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U732C6GSA;
+				INFOPLIST_FILE = "DepEd XI RAEL EvaluationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.depedigacos.DepEd-XI-RAEL-EvaluationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DepEd XI RAEL Evaluation.app/DepEd XI RAEL Evaluation";
+			};
+			name = Debug;
+		};
+		8423A40220732631009008F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U732C6GSA;
+				INFOPLIST_FILE = "DepEd XI RAEL EvaluationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.depedigacos.DepEd-XI-RAEL-EvaluationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DepEd XI RAEL Evaluation.app/DepEd XI RAEL Evaluation";
+			};
+			name = Release;
+		};
+		8423A40420732631009008F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U732C6GSA;
+				INFOPLIST_FILE = "DepEd XI RAEL EvaluationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.depedigacos.DepEd-XI-RAEL-EvaluationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DepEd XI RAEL Evaluation";
+			};
+			name = Debug;
+		};
+		8423A40520732631009008F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U732C6GSA;
+				INFOPLIST_FILE = "DepEd XI RAEL EvaluationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.depedigacos.DepEd-XI-RAEL-EvaluationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DepEd XI RAEL Evaluation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8423A3CD2073262A009008F3 /* Build configuration list for PBXProject "DepEd XI RAEL Evaluation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8423A3FB20732631009008F3 /* Debug */,
+				8423A3FC20732631009008F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8423A3FD20732631009008F3 /* Build configuration list for PBXNativeTarget "DepEd XI RAEL Evaluation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8423A3FE20732631009008F3 /* Debug */,
+				8423A3FF20732631009008F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8423A40020732631009008F3 /* Build configuration list for PBXNativeTarget "DepEd XI RAEL EvaluationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8423A40120732631009008F3 /* Debug */,
+				8423A40220732631009008F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8423A40320732631009008F3 /* Build configuration list for PBXNativeTarget "DepEd XI RAEL EvaluationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8423A40420732631009008F3 /* Debug */,
+				8423A40520732631009008F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8423A3DC2073262B009008F3 /* DepEd_XI_RAEL_Evaluation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8423A3DD2073262B009008F3 /* DepEd_XI_RAEL_Evaluation.xcdatamodel */,
+			);
+			currentVersion = 8423A3DD2073262B009008F3 /* DepEd_XI_RAEL_Evaluation.xcdatamodel */;
+			path = DepEd_XI_RAEL_Evaluation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8423A3CA2073262A009008F3 /* Project object */;
+}
