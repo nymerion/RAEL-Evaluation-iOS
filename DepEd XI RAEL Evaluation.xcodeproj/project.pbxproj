@@ -15,6 +15,15 @@
 		8423A3E320732630009008F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8423A3E120732630009008F3 /* LaunchScreen.storyboard */; };
 		8423A3EE20732630009008F3 /* DepEd_XI_RAEL_EvaluationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423A3ED20732630009008F3 /* DepEd_XI_RAEL_EvaluationTests.swift */; };
 		8423A3F920732630009008F3 /* DepEd_XI_RAEL_EvaluationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423A3F820732630009008F3 /* DepEd_XI_RAEL_EvaluationUITests.swift */; };
+		8423A40920734F59009008F3 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423A40620734F59009008F3 /* RootViewController.swift */; };
+		8423A40A20734F59009008F3 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423A40620734F59009008F3 /* RootViewController.swift */; };
+		8423A40B20734F59009008F3 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423A40620734F59009008F3 /* RootViewController.swift */; };
+		8423A40C20734F59009008F3 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423A40720734F59009008F3 /* MenuViewController.swift */; };
+		8423A40D20734F59009008F3 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423A40720734F59009008F3 /* MenuViewController.swift */; };
+		8423A40E20734F59009008F3 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423A40720734F59009008F3 /* MenuViewController.swift */; };
+		8423A40F20734F59009008F3 /* DrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423A40820734F59009008F3 /* DrawerController.swift */; };
+		8423A41020734F59009008F3 /* DrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423A40820734F59009008F3 /* DrawerController.swift */; };
+		8423A41120734F59009008F3 /* DrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423A40820734F59009008F3 /* DrawerController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,9 @@
 		8423A3F420732630009008F3 /* DepEd XI RAEL EvaluationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DepEd XI RAEL EvaluationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8423A3F820732630009008F3 /* DepEd_XI_RAEL_EvaluationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepEd_XI_RAEL_EvaluationUITests.swift; sourceTree = "<group>"; };
 		8423A3FA20732631009008F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8423A40620734F59009008F3 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		8423A40720734F59009008F3 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		8423A40820734F59009008F3 /* DrawerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,7 @@
 		8423A3D42073262A009008F3 /* DepEd XI RAEL Evaluation */ = {
 			isa = PBXGroup;
 			children = (
+				8423A41220734F83009008F3 /* DrawerMenu */,
 				8423A3D52073262B009008F3 /* AppDelegate.swift */,
 				8423A3D72073262B009008F3 /* ViewController.swift */,
 				8423A3D92073262B009008F3 /* Main.storyboard */,
@@ -126,6 +139,16 @@
 				8423A3FA20732631009008F3 /* Info.plist */,
 			);
 			path = "DepEd XI RAEL EvaluationUITests";
+			sourceTree = "<group>";
+		};
+		8423A41220734F83009008F3 /* DrawerMenu */ = {
+			isa = PBXGroup;
+			children = (
+				8423A40820734F59009008F3 /* DrawerController.swift */,
+				8423A40720734F59009008F3 /* MenuViewController.swift */,
+				8423A40620734F59009008F3 /* RootViewController.swift */,
+			);
+			path = DrawerMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +283,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8423A3D82073262B009008F3 /* ViewController.swift in Sources */,
+				8423A40C20734F59009008F3 /* MenuViewController.swift in Sources */,
+				8423A40F20734F59009008F3 /* DrawerController.swift in Sources */,
 				8423A3D62073262B009008F3 /* AppDelegate.swift in Sources */,
+				8423A40920734F59009008F3 /* RootViewController.swift in Sources */,
 				8423A3DE2073262B009008F3 /* DepEd_XI_RAEL_Evaluation.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +295,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8423A40A20734F59009008F3 /* RootViewController.swift in Sources */,
+				8423A40D20734F59009008F3 /* MenuViewController.swift in Sources */,
+				8423A41020734F59009008F3 /* DrawerController.swift in Sources */,
 				8423A3EE20732630009008F3 /* DepEd_XI_RAEL_EvaluationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +306,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8423A40B20734F59009008F3 /* RootViewController.swift in Sources */,
+				8423A40E20734F59009008F3 /* MenuViewController.swift in Sources */,
+				8423A41120734F59009008F3 /* DrawerController.swift in Sources */,
 				8423A3F920732630009008F3 /* DepEd_XI_RAEL_EvaluationUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
